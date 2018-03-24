@@ -1,0 +1,340 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201601 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.benefit-invest.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1963                
+POS_TIME 2635                
+POS_VISITOR 7800                
+POS_DAY 8626                
+POS_DOMAIN 3315                
+POS_LOGIN 3545                
+POS_ROBOT 3700                
+POS_WORMS 4011                
+POS_EMAILSENDER 4142                
+POS_EMAILRECEIVER 4285                
+POS_SESSION 8844                
+POS_SIDER 8997                
+POS_FILETYPES 4420                
+POS_OS 4597                
+POS_BROWSER 4690                
+POS_SCREENSIZE 4928                
+POS_UNKNOWNREFERER 5002                
+POS_UNKNOWNREFERERBROWSER 5154                
+POS_ORIGIN 5301                
+POS_SEREFERRALS 5439                
+POS_PAGEREFS 5583                
+POS_SEARCHWORDS 5794                
+POS_KEYWORDS 5946                
+POS_MISC 2299                
+POS_ERRORS 6005                
+POS_CLUSTER 3401                
+POS_SIDER_404 6117                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160201061115 1 0 10177148921033
+FirstTime 20160125143922
+LastTime 20160131165851
+LastUpdate 20160202000405 1 0 0 0 0
+TotalVisits 32                  
+TotalUnique 19                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 19                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 15557 4 4 2014
+1 3 3 35180 2 23 218522
+2 5 5 43312 11 12 12538
+3 2 3 23161 3 3 1431
+4 0 0 0 13 13 10204
+5 0 0 0 0 0 0
+6 3 3 35136 5 7 8619
+7 0 0 0 6 17 199096
+8 0 0 0 0 11 192880
+9 1 1 4123 1 1 504
+10 10 10 40703 5 8 13335
+11 8 8 32571 9 10 21938
+12 0 0 0 5 5 9913
+13 4 18 364949 3 8 10355
+14 2 2 4898 2 4 1036
+15 13 33 337951 14 16 11480
+16 18 120 758080 14 31 36812
+17 24 197 102915 18 42 37745
+18 76 165 170046 7 53 30864
+19 30 105 123648 17 43 30872
+20 60 240 210269 9 66 36334
+21 8 45 42037 22 29 14856
+22 0 0 0 9 9 8167
+23 1 1 4066 9 9 4390
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 269 960 2348602
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+googlebot 51 672143 20160131160109 0
+bot[\s_+:,\.\;\/\\-] 8 32984 20160130172516 0
+yandex 4 13807 20160131160838 0
+surveybot 1 4085 20160131102238 0
+slurp 1 4068 20160125195539 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 61 110106 0 0
+php 156 416422 0 0
+png 138 341954 0 0
+html 112 572755 0 0
+ttf 1 137339 0 0
+js 457 500757 0 0
+jpg 35 269269 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 5
+macosx 8
+winxp 5
+linuxubuntu 6
+Unknown 14
+win2008 927
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 12
+chrome37.0.2062.124 1
+chrome43.0.2357.81 6
+chrome39.0.2171.65 1
+firefox43.0 916
+netscape5.0 2
+firefox16.0 5
+safari5.1 8
+msie9.0 1
+chrome41.0.2228.0 3
+firefox38.0 1
+Unknown 14
+opera9.80 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+}__test|O:21:\ 20160130113533
+Go_1.1_package_http 20160131165851
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+}__test|O:21:\ 20160130113533
+Go_1.1_package_http 20160131165851
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 41 69
+From1 16 16
+From2 0 0
+From3 2 2
+From4 210 873
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://hostx.ru 1 1
+http://www.feedback.contacts-forma.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 6 9036
+500 3 1360
+404 341 176422
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 56
+/about/ 5 -
+/css/camera.css 1 -
+/deposit 4 -
+/robots.txt 31 -
+/faq 3 -
+/admin.php 4 -
+/booking/css/booking.css 1 -
+/registration 1 -
+/profile 2 -
+/contacts 5 http://www.benefit-invest.ru/contacts
+/css/style1.css 1 -
+/rules/index.html 1 -
+/index-single.html 1 -
+/reminder/ 1 -
+/news 2 http://benefit-invest.ru/
+/maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css 181 http://benefit-invest.ru/assets/styles/css/app.css
+/m/ 1 -
+/css/reset.css 1 -
+/user/semnka 1 -
+/deposits 6 -
+/registration/&l10n=ru&mime=html&sign=158c6edc754abf88042499fee1996e04&keyno=0 1 -
+/contacts/ 1 http://www.feedback.contacts-forma.com
+/ref/ 1 -
+/stat 3 -
+/www.zip 1 -
+/ref 4 -
+/css/owl.carousel.css 1 -
+/booking/font/font-awesome.css 1 -
+/deposit/ 2 -
+/account/deposits 1 http://benefit-invest.ru/index.php
+/css/skeleton.css 1 -
+/css/font-awesome.css 1 -
+/administrator/index.php 3 http://benefit-invest.ru/administrator/index.php
+/2008/01/30/prjamye-nalogi.html 1 -
+/news/index.html 2 -
+/enter 6 -
+/about/index.html 4 -
+/faq/index.html 4 -
+/faq/ 4 -
+/reviews 2 http://benefit-invest.ru/
+/signup 1 -
+/about 4 -
+/administrator/ 2 -
+/reglament 1 -
+/login/ 1 -
+/images/gra.png 2 http://benefit-invest.ru/
+/news/ 6 -
+/wp-login.php 4 -
+/reminder 2 -
+/login 4 -
+/exit.php 7 -
+/account 2 http://benefit-invest.ru/index.php
+/rules/ 3 -
+/site.zip 1 -
+/css/superfish.css 1 -
+/withdrawal 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 19
+176.214.128.176 221 883 1326059 20160125210430
+95.213.193.98 16 16 65142 20160130113533
+109.234.156.66 6 6 24396 20160131015006
+188.225.33.150 5 5 77785 20160130025827
+188.234.182.101 4 18 364949 20160129131305
+82.146.58.161 2 2 8170 20160129154736
+95.213.141.126 2 2 8132 20160128104710
+62.109.26.168 2 2 8170 20160130153024
+82.146.63.123 1 1 4085 20160131165851
+188.138.33.226 1 1 15577 20160125193956
+82.146.62.80 1 1 4085 20160126141143
+40.78.146.128 1 2 19095 20160128032546
+178.91.139.2 1 1 4066 20160130064918
+178.165.71.237 1 1 15535 20160128063535
+91.79.29.26 1 1 15521 20160125173403
+79.137.223.57 1 1 15576 20160128215545
+188.232.74.216 1 15 352601 20160131161902
+178.165.113.164 1 1 15535 20160126064053
+94.23.35.126 1 1 4123 20160126095013
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 7
+20160125 224 886 1361223 5
+20160126 4 4 39300 4
+20160127 3 3 23708 3
+20160128 16 17 114617 8
+20160129 7 21 388657 4
+20160130 12 12 60345 5
+20160131 3 17 360752 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+1h+ 1
+0s-30s 31
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 5
+/index.php 118 393461 0 1
+/ 112 572755 32 31
+/ajax/auth.php 37 22350 0 0
+/ajax/reg.php 1 611 0 0
+/css/roboto.ttf 1 137339 0 0
+END_SIDER

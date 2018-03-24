@@ -1,0 +1,29 @@
+order allow,deny
+deny from 176.115.89.171
+deny from 176.115.91.23
+deny from 176.115.90.53
+deny from 176.115.94.231
+deny from 195.69.170.154
+deny from 193.151.26.57
+deny from 94.178.135.197
+deny from 37.54.211.43
+deny from 176.115.93.153
+deny from 176.115.89.79
+deny from 195.69.171.124
+deny from 195.69.239.185
+deny from 176.115.91.208
+deny from 195.69.169.135
+deny from 195.69.171.147
+deny from 176.115.91.95
+deny from 195.69.170.203
+deny from 176.115.90.242
+deny from 91.105.141.88
+deny from 37.79.80.101
+allow from all
+
+
+AddDefaultCharset WINDOWS-1251
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.invest-kacca.com$ [NC]
+RewriteRule ^(.*)$ http://invest-kacca.com/$1 [R=301,L]
